@@ -1,0 +1,59 @@
+13:16:37.440 INFO  - Processing command line option -hwspec C:/xup/embedded/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+13:23:13.086 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:23:13.195 INFO  - PS initialization will be done as it is not done before. 
+13:23:13.195 INFO  - Running PS initialization.... 
+13:23:13.507 INFO  - ps7_init is completed. 
+13:23:13.617 INFO  - PS Initialization is complete. 
+13:25:51.725 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:33:30.771 INFO  - Processing command line option -hwspec D:/zoby1/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+14:33:31.300 INFO  - The hardware specification for project 'hw_platform_0' is different from D:/zoby1/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+14:33:31.490 INFO  - Copied contents of D:/zoby1/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+14:33:31.511 INFO  - Copied contents of D:\zoby1\lab2\lab2.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system.bit. 
+14:33:45.489 INFO  - Copied contents of D:\zoby1\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+14:33:45.491 INFO  - Copied contents of D:\zoby1\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+14:33:45.500 INFO  - Copied contents of D:\zoby1\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+14:33:45.502 INFO  - Copied contents of D:\zoby1\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+14:33:45.504 INFO  - Copied contents of D:\zoby1\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+14:33:45.961 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:33:49.906 INFO  - Updating MSS for Board Support Package Project: mem_test_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: btns_4bit, driver: gpio_v3_01_a.
+			Peripheral Instance: sw_4bit, driver: gpio_v3_01_a.
+ 
+14:33:51.944 INFO  - Updating hardware inferred compiler options for mem_test. 
+14:33:51.984 INFO  - Clearing existing target manager status. 
+14:33:58.473 INFO  - Closing and re-opening the MSS file of ther project mem_test_bsp 
+14:34:00.521 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+14:57:28.604 INFO  - FPGA configured successfully with bitstream "D:/zoby1/lab2/lab2.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+14:58:14.728 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:58:14.828 INFO  - PS initialization will be done as it is not done before. 
+14:58:14.828 INFO  - Running PS initialization.... 
+14:58:15.074 INFO  - ps7_init is completed. 
+14:58:15.083 INFO  - ps7_post_config is completed. 
+14:58:15.183 INFO  - PS Initialization is complete. 
+14:59:16.711 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:59:36.318 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:00:42.365 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:01:21.942 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:01:25.737 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:01:40.340 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:01:42.739 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:02:30.103 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:02:44.332 ERROR - Port COM4 is already in use. 
+15:02:47.171 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+15:04:27.383 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+15:04:41.012 INFO  - FPGA configured successfully with bitstream "D:/zoby1/lab2/lab2.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+15:05:08.560 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:05:08.660 INFO  - PS initialization will be done as it is not done before. 
+15:05:08.660 INFO  - Running PS initialization.... 
+15:05:08.891 INFO  - ps7_init is completed. 
+15:05:09.157 INFO  - ps7_post_config is completed. 
+15:05:09.257 INFO  - PS Initialization is complete. 
+15:11:47.649 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
