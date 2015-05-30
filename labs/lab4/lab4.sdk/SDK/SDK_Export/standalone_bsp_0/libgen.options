@@ -1,0 +1,3 @@
+PROCESSOR=ps7_cortexa9_0
+REPOSITORIES=-lp D:/zoby1/lab3/led_ip/led_ip_1.0 -lp ..\..\..\..\..\..\lab3\led_ip\led_ip_1.0
+HWSPEC=../hw_platform_0/system.xml
