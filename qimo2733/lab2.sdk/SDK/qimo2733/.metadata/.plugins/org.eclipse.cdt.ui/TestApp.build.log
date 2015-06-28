@@ -1,0 +1,6 @@
+19:51:53 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+
+19:51:55 Build Finished (took 1s.207ms)
+

@@ -1,0 +1,96 @@
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xutil.h"
+  
+
+//====================================================
+
+int main (void) 
+{
+	/*源代码
+	XGpio dip,push;
+	int i,psb_check,dip_check;
+
+	xil_printf("-- Start of the Program --\r\n");
+
+	XGpio_Initialize(&dip, XPAR_SW_4BIT_DEVICE_ID);
+	XGpio_SetDataDirection(&dip, 1, 0xffffffff);
+
+	XGpio_Initialize(&push, XPAR_BTNS_4BIT_DEVICE_ID);
+	XGpio_SetDataDirection(&push, 1, 0xffffffff);
+
+	while (1)
+	{
+		psb_check = XGpio_DiscreteRead(&push, 1);
+		xil_printf("Push Buttons Status %x\r\n", psb_check);
+		dip_check = XGpio_DiscreteRead(&dip, 1);
+		xil_printf("DIP Switch Status %x\r\n", dip_check);
+
+		for (i=0; i<9999999; i++);
+	}
+	*/
+
+
+	//----------变量定义-------------
+	XGpio led,push; //2个GPIO  led灯 和 button(push)
+	int i,psb_check;//psb_check为push的返回值
+
+    xil_printf("-- Start of the Program --\r\n");
+ 
+    //GPIO口的初始化 及 输入输出设置
+	XGpio_Initialize(&led,XPAR_SW_4BIT_DEVICE_ID);
+	XGpio_SetDataDirection(&led,1,0x00000000);//led  0是输出
+
+	XGpio_Initialize(&push, XPAR_BTNS_4BIT_DEVICE_ID);
+	XGpio_SetDataDirection(&push, 1, 0xffffffff);//button 1是输入
+	
+	//try 1  按1亮
+	while (1)
+	{
+        //按下button,得到按下哪个按钮
+		psb_check = XGpio_DiscreteRead(&push,1);
+		xil_printf("psb_check %x\r\n",psb_check);
+
+		if(psb_check==1)
+		{
+			//写入led
+			xil_printf("psb_check %x\r\n",psb_check);
+			XGpio_DiscreteWrite(&led,1,0xffffffff);
+		}
+		else
+		{
+			XGpio_DiscreteWrite(&led,1,0x00000000);
+		}
+
+	    for (i=0; i<9999999; i++);
+	}
+
+
+
+	/*
+	//try2 一闪一闪
+	int count = 0;
+	while(1)
+	{
+		//按下button,得到按下哪个按钮
+		psb_check = XGpio_DiscreteRead(&push,1);
+		count++;
+		xil_printf("psb_check %x\r\n",psb_check);
+
+		if(count%2!=0)
+		{
+			xil_printf("count %x\r\n", count);
+			XGpio_DiscreteWrite(&led,1,0xffffffff);
+		}
+		else
+		{
+	    	xil_printf("count %x\r\n", count);
+	    	XGpio_DiscreteWrite(&led,1,0x00000000);
+		}
+
+		for (i=0; i<9999999; i++);
+	}
+	*/
+ 
+}
+ 

@@ -1,0 +1,818 @@
+23:42:00 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project TestApp ****
+
+Nothing to build for project TestApp
+23:45:43 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+../src/lab2.c:3:19: fatal error: xutil.h: No such file or directory
+ #include "xutil.h"
+                   ^
+compilation terminated.
+make: *** [src/lab2.o] 错误 1
+23:45:53 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24012	   1136	  29796	  54944	   d6a0	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+23:47:19 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:21:26: error: 'dip' undeclared (first use in this function)
+  XGpio_SetDataDirection(&dip,1,0xffffffff);
+                          ^
+../src/lab2.c:21:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab2.c:31:4: error: 'dip_check' undeclared (first use in this function)
+    dip_check = XGpio_DiscreteRead(&dip, 1);
+    ^
+make: *** [src/lab2.o] 错误 1
+23:47:39 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:31:4: error: 'dip_check' undeclared (first use in this function)
+    dip_check = XGpio_DiscreteRead(&dip, 1);
+    ^
+../src/lab2.c:31:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab2.c:31:36: error: 'dip' undeclared (first use in this function)
+    dip_check = XGpio_DiscreteRead(&dip, 1);
+                                    ^
+make: *** [src/lab2.o] 错误 1
+23:48:00 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:14:8: warning: unused variable 'psb_check' [-Wunused-variable]
+  int i,psb_check;
+        ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23896	   1136	  29796	  54828	   d62c	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+23:48:13 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:36:6: error: 'count' undeclared (first use in this function)
+      count ++;
+      ^
+../src/lab2.c:36:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab2.c:14:8: warning: variable 'psb_check' set but not used [-Wunused-but-set-variable]
+  int i,psb_check;
+        ^
+make: *** [src/lab2.o] 错误 1
+23:48:43 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:14:8: warning: variable 'psb_check' set but not used [-Wunused-but-set-variable]
+  int i,psb_check;
+        ^
+../src/lab2.c:14:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,psb_check;
+      ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23960	   1136	  29796	  54892	   d66c	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+23:51:09 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+23:53:14 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:14:8: warning: variable 'psb_check' set but not used [-Wunused-but-set-variable]
+  int i,psb_check;
+        ^
+../src/lab2.c:14:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,psb_check;
+      ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23960	   1136	  29796	  54892	   d66c	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+23:54:34 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+23:55:59 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:14:8: warning: variable 'psb_check' set but not used [-Wunused-but-set-variable]
+  int i,psb_check;
+        ^
+../src/lab2.c:14:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,psb_check;
+      ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23960	   1136	  29796	  54892	   d66c	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+23:57:36 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:14:8: warning: variable 'psb_check' set but not used [-Wunused-but-set-variable]
+  int i,psb_check;
+        ^
+../src/lab2.c:14:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,psb_check;
+      ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23972	   1136	  29796	  54904	   d678	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+23:58:20 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+23:59:31 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:14:8: warning: variable 'psb_check' set but not used [-Wunused-but-set-variable]
+  int i,psb_check;
+        ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24036	   1136	  29796	  54968	   d6b8	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+00:00:43 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:02:24 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:02:52 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:14:02 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:15:47 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24036	   1136	  29796	  54968	   d6b8	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+00:16:22 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:17:23 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:19:45 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23976	   1136	  29796	  54908	   d67c	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+00:20:47 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:21:11 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:21:28 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:22:03 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:24:10 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+00:25:50 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24040	   1136	  29796	  54972	   d6bc	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+00:27:00 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+16:21:52 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+16:40:09 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+17:08:58 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:74:6: error: 'count' undeclared (first use in this function)
+   if(count%2!=0)
+      ^
+../src/lab2.c:74:6: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/lab2.o] 错误 1
+17:09:13 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24040	   1136	  29796	  54972	   d6bc	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+17:10:08 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+17:11:01 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:36:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,psb_check;//psb_check为push的返回值
+      ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24052	   1136	  29796	  54984	   d6c8	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+17:11:49 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+17:12:36 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:36:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,psb_check;//psb_check为push的返回值
+      ^
+../src/lab2.c:77:13: warning: 'psb_check' is used uninitialized in this function [-Wuninitialized]
+   xil_printf("psb_check %x\r\n",psb_check);
+             ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23988	   1136	  29796	  54920	   d688	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+17:14:50 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+17:18:36 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:36:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,psb_check;//psb_check为push的返回值
+      ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24052	   1136	  29796	  54984	   d6c8	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+17:20:36 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+17:21:19 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24052	   1136	  29796	  54984	   d6c8	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+17:21:47 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+19:36:22 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24040	   1136	  29796	  54972	   d6bc	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+19:37:48 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+19:39:47 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24040	   1136	  29796	  54972	   d6bc	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+19:40:05 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+19:41:00 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+19:43:22 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+19:45:24 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+19:47:46 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+19:48:39 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24040	   1136	  29796	  54972	   d6bc	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+19:49:02 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:39:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("result"+"\r\n");
+     ^
+../src/lab2.c:39:5: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+../src/lab2.c:39:20: error: invalid operands to binary + (have 'char *' and 'char *')
+     printf("result"+"\r\n");
+                    ^
+make: *** [src/lab2.o] 错误 1
+19:49:16 **** Auto Build of configuration Debug for project TestApp ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'main':
+../src/lab2.c:39:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("result");
+     ^
+../src/lab2.c:39:5: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp.elf  |tee "TestApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62568	   2304	  29868	  94740	  17214	TestApp.elf
+'Finished building: TestApp.elf.size'
+' '
+19:49:35 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+19:50:23 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
+19:51:53 **** Incremental Build of configuration Debug for project TestApp ****
+make all 
+make: Nothing to be done for `all'.
